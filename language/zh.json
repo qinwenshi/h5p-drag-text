@@ -1,0 +1,40 @@
+{
+  "semantics": [
+    {
+      "label": "任务简述",
+      "description": "描述用户如何完成任务。"
+    },
+    {
+      "label": "文本框",
+      "description": "可删除的文字会在正确的单词/词组前或后添加一个星号（*）。你可以添加一条文本提示，并在此提示前使用一个句号（：）。Example示例: H5P内容可以被编辑为：  *browser:Something you use every day*."
+    },
+    {
+      "label": " \"确认\"按钮的文本"
+    },
+    {
+      "label": " \"重试\" 按钮的文本"
+    },
+    {
+      "label": " \"查看答案\" 按钮的文本"
+    },
+    {
+      "label": "反馈文本",
+      "description": "反馈文本，可选: @score @total. 比如: '总分 @total ，您的得分 @score 。'"
+    },
+    {
+      "label": "动作设置。",
+      "description": "这些选项可以让您控制任务如何展现。",
+      "fields": [
+        {
+          "label": "启用 \"重试\""
+        },
+        {
+          "label": "启用 \"查看答案\" 按钮"
+        },
+        {
+          "label": "及时反馈"
+        }
+      ]
+    }
+  ]
+}
